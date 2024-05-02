@@ -1,0 +1,7 @@
+input_videos/*.mp4
+output_videos/*.avi
+runs/*/*/*.avi
+runs/*/*/weights/*.pt
+datasets
+pretrained_models/
+*.pt
