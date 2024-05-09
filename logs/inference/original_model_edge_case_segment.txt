@@ -1,0 +1,110 @@
+Downloading https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x-seg.pt to 'pretrained_models/yolov8x-seg.pt'...
+  0%|          | 0.00/137M [00:00<?, ?B/s]  1%|          | 768k/137M [00:00<00:19, 7.44MB/s]  3%|▎         | 4.38M/137M [00:00<00:05, 24.7MB/s]  5%|▌         | 7.25M/137M [00:00<00:05, 26.7MB/s]  8%|▊         | 11.2M/137M [00:00<00:04, 32.5MB/s] 14%|█▍        | 19.0M/137M [00:00<00:02, 49.8MB/s] 28%|██▊       | 38.5M/137M [00:00<00:01, 102MB/s]  35%|███▌      | 48.2M/137M [00:00<00:01, 86.2MB/s] 41%|████▏     | 56.9M/137M [00:00<00:01, 79.1MB/s] 47%|████▋     | 64.8M/137M [00:01<00:01, 74.9MB/s] 52%|█████▏    | 72.1M/137M [00:01<00:00, 72.0MB/s] 58%|█████▊    | 79.2M/137M [00:01<00:01, 43.8MB/s] 73%|███████▎  | 100M/137M [00:01<00:00, 76.6MB/s]  81%|████████  | 111M/137M [00:01<00:00, 73.0MB/s] 87%|████████▋ | 120M/137M [00:01<00:00, 62.2MB/s] 95%|█████████▌| 131M/137M [00:02<00:00, 72.6MB/s]100%|██████████| 137M/137M [00:02<00:00, 65.6MB/s]
+Ultralytics YOLOv8.2.5 🚀 Python-3.10.12 torch-2.3.0+cu121 CUDA:0 (NVIDIA GeForce RTX 4090, 24217MiB)
+YOLOv8x-seg summary (fused): 295 layers, 71797696 parameters, 0 gradients, 344.1 GFLOPs
+
+WARNING ⚠️ imgsz=[1080, 1920] must be multiple of max stride 32, updating to [1088, 1920]
+video 1/1 (frame 1/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 41.7ms
+video 1/1 (frame 2/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 42.0ms
+video 1/1 (frame 3/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 42.0ms
+video 1/1 (frame 4/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 41.7ms
+video 1/1 (frame 5/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.1ms
+video 1/1 (frame 6/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 7/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.1ms
+video 1/1 (frame 8/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.1ms
+video 1/1 (frame 9/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 10/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 11/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 12/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 13/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 14/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 15/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 16/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 17/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 18/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 19/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 20/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 21/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 22/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 23/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 24/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.2ms
+video 1/1 (frame 25/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.1ms
+video 1/1 (frame 26/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 27/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.1ms
+video 1/1 (frame 28/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 29/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 30/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 31/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.4ms
+video 1/1 (frame 32/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 33/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 34/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 35/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.5ms
+video 1/1 (frame 36/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 37/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 38/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 39/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 40/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.4ms
+video 1/1 (frame 41/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 42/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 43/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.4ms
+video 1/1 (frame 44/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 45/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 46/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 47/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 48/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 49/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 50/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.2ms
+video 1/1 (frame 51/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.5ms
+video 1/1 (frame 52/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 53/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.2ms
+video 1/1 (frame 54/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 55/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 56/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.5ms
+video 1/1 (frame 57/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 58/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 59/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 60/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.4ms
+video 1/1 (frame 61/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 62/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 63/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 64/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.4ms
+video 1/1 (frame 65/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 66/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.3ms
+video 1/1 (frame 67/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 1 sports ball, 39.2ms
+video 1/1 (frame 68/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 69/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 70/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 71/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 72/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 73/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 74/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 75/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 76/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 77/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 78/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 79/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 80/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 81/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 82/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 83/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.4ms
+video 1/1 (frame 84/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 85/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 86/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 87/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.4ms
+video 1/1 (frame 88/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 89/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 90/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 91/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 92/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 93/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 94/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 95/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 96/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 97/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.2ms
+video 1/1 (frame 98/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 99/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+video 1/1 (frame 100/100) /workspace/codebase/input_videos/pi3-20240329_215144_1150_1250.mp4: 1088x1920 (no detections), 39.3ms
+Speed: 3.9ms preprocess, 39.4ms inference, 31.6ms postprocess per image at shape (1, 3, 1088, 1920)
+Results saved to [1mruns/segment/predict[0m
+25 labels saved to runs/segment/predict/labels
+💡 Learn more at https://docs.ultralytics.com/modes/predict

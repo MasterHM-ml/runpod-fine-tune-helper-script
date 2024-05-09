@@ -238,3 +238,61 @@ Traceback (most recent call last):
   File "/workspace/env/lib/python3.10/site-packages/tensorboard/plugins/hparams/hparams_plugin.py", line 121, in get_experiment_route
     json_format.MessageToJson(
 TypeError: MessageToJson() got an unexpected keyword argument 'including_default_value_fields'
+E0503 03:56:44.544578 139849487078976 _internal.py:96] Error on request:
+Traceback (most recent call last):
+  File "/workspace/env/lib/python3.10/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspace/env/lib/python3.10/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/application.py", line 528, in __call__
+    return self._app(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/application.py", line 569, in wrapper
+    return wsgi_app(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/security_validator.py", line 91, in __call__
+    return self._application(environ, start_response_proxy)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/path_prefix.py", line 68, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/experiment_id.py", line 73, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/empty_path_redirect.py", line 43, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/client_feature_flags.py", line 55, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/auth_context_middleware.py", line 38, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/application.py", line 551, in _route_request
+    return self.exact_routes[clean_path](environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 189, in application
+    resp = f(*args[:-2] + (request,))
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/plugins/hparams/hparams_plugin.py", line 121, in get_experiment_route
+    json_format.MessageToJson(
+TypeError: MessageToJson() got an unexpected keyword argument 'including_default_value_fields'
+E0503 03:56:47.948217 139849453508160 _internal.py:96] Error on request:
+Traceback (most recent call last):
+  File "/workspace/env/lib/python3.10/site-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/workspace/env/lib/python3.10/site-packages/werkzeug/serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/application.py", line 528, in __call__
+    return self._app(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/application.py", line 569, in wrapper
+    return wsgi_app(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/security_validator.py", line 91, in __call__
+    return self._application(environ, start_response_proxy)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/path_prefix.py", line 68, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/experiment_id.py", line 73, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/empty_path_redirect.py", line 43, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/client_feature_flags.py", line 55, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/auth_context_middleware.py", line 38, in __call__
+    return self._application(environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/backend/application.py", line 551, in _route_request
+    return self.exact_routes[clean_path](environ, start_response)
+  File "/workspace/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 189, in application
+    resp = f(*args[:-2] + (request,))
+  File "/workspace/env/lib/python3.10/site-packages/tensorboard/plugins/hparams/hparams_plugin.py", line 121, in get_experiment_route
+    json_format.MessageToJson(
+TypeError: MessageToJson() got an unexpected keyword argument 'including_default_value_fields'
