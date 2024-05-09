@@ -3,5 +3,5 @@ output_videos/*.avi
 runs/*/*/*.avi
 runs/*/*/weights/*.pt
 datasets
-pretrained_models/
+pretrained_models/*.pt
 *.pt
