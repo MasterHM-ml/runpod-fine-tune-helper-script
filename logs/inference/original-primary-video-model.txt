@@ -1,0 +1,65 @@
+Ultralytics YOLOv8.2.11 🚀 Python-3.10.12 torch-2.1.0+cu118 CUDA:0 (NVIDIA GeForce RTX 4090, 24217MiB)
+YOLOv8x summary (fused): 268 layers, 68200608 parameters, 0 gradients, 257.8 GFLOPs
+
+WARNING ⚠️ imgsz=[1080, 3840] must be multiple of max stride 32, updating to [1088, 3840]
+video 1/1 (frame 1/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 68.0ms
+video 1/1 (frame 2/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 67.8ms
+video 1/1 (frame 3/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 67.7ms
+video 1/1 (frame 4/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 66.3ms
+video 1/1 (frame 5/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 6/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 7/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 8/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 9/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.8ms
+video 1/1 (frame 10/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 11/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 12/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 13/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 14/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 15/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 16/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 17/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 18/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 19/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 20/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 21/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 22/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 23/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.8ms
+video 1/1 (frame 24/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 25/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 26/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 27/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.6ms
+video 1/1 (frame 28/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 65.0ms
+video 1/1 (frame 29/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 65.1ms
+video 1/1 (frame 30/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.9ms
+video 1/1 (frame 31/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 32/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.8ms
+video 1/1 (frame 33/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 34/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 35/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.8ms
+video 1/1 (frame 36/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.8ms
+video 1/1 (frame 37/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 38/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 39/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.9ms
+video 1/1 (frame 40/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 2 sports balls, 64.7ms
+video 1/1 (frame 41/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 2 sports balls, 65.1ms
+video 1/1 (frame 42/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 43/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 44/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 (no detections), 64.7ms
+video 1/1 (frame 45/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 46/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 47/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.8ms
+video 1/1 (frame 48/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 49/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 50/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 51/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.8ms
+video 1/1 (frame 52/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 53/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 54/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 55/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 56/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 57/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 58/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 59/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
+video 1/1 (frame 60/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.9ms
+video 1/1 (frame 61/4192) /workspace/runpod-fine-tune-helper-script/input_videos/primary.mp4: 1088x3840 1 sports ball, 64.7ms
